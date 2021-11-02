@@ -1,0 +1,18 @@
+﻿<Window x:Class="Okno.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Okno"
+        mc:Ignorable="d"
+        Title="Window1" Height="450" Width="800">
+    <Grid>
+        <Label Content="Podaj imię" HorizontalAlignment="Left" Margin="178,106,0,0" VerticalAlignment="Top" Width="76"/>
+        <TextBox x:Name="tbImie" HorizontalAlignment="Left" Height="23" Margin="308,108,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Podaj nazwisko" HorizontalAlignment="Left" Margin="178,148,0,0" VerticalAlignment="Top" Width="108"/>
+        <TextBox x:Name="tbNazwisko" HorizontalAlignment="Left" Height="23" Margin="308,152,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btOK" Content="OK" HorizontalAlignment="Left" Margin="166,229,0,0" VerticalAlignment="Top" Width="75" Click="BtOK_Click"/>
+        <Button x:Name="btCancel"  Content="CANCEL" HorizontalAlignment="Left" Margin="308,229,0,0" VerticalAlignment="Top" Width="75" Click="BtCancel_Click"/>
+
+    </Grid>
+</Window>
